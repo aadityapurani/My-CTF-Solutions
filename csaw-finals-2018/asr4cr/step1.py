@@ -30,3 +30,4 @@ phi = (p-1)*(q-1)
 d = modinv(e,phi)
 pt = rsa_printable(c,d,n)
 print pt
+# RSA{FIRST_ROUND_WAS_NOT_TOO_BAD}

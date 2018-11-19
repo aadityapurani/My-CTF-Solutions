@@ -1,0 +1,12 @@
+n=371781196966866977144706219746579136461491261
+g=3
+
+m1 = 97112112108101112101097114098108117101
+m2 = 100097114107104111114115101097105
+
+F = IntegerModRing(n)
+
+a = discrete_log(F(m1), F(g))
+b = discrete_log(F(m2), F(g))
+
+print 'RITSEC{'+str(IntegerModRing(n)(g)**(a*b))+'}'

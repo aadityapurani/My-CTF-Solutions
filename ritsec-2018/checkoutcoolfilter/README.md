@@ -13,6 +13,6 @@ _Va`RP\x88aVYlW]RTlP\\Z]_R``V\\[lZR``R`ldVaUl_TOlcNYbR`\x8a
 
 After thinking a bit, it was evident that the individual ASCII should be converted to decimal and substracted by 13 and again convert back to ASCII. The reason for that was we already know the pre-fix `RITSEC{` so I made analysis & concluded that
 
-Solver script: solve_filter.py
+Solver script: [solve_filter.py](https://github.com/aadityapurani/My-CTF-Solutions/blob/master/ritsec-2018/checkoutcoolfilter/solve_filter.py)
 
 ##### Flag: RITSEC{TIL_JPEG_COMPRESSION_MESSES_WITH_RGB_VALUES}

@@ -37,7 +37,7 @@ So, we use the following to crack `a` and `b`
 
 Then it's a simple equation to get the secretkey.
 
-The full solver is implemented in dh-solve.sage
+The full solver is implemented in [dh-solve.sage](https://github.com/aadityapurani/My-CTF-Solutions/blob/master/ritsec-2018/DarkpearAI/dh-solve.sage)
 
 ```
 ./sage dh-solve.sage

@@ -126,7 +126,7 @@ encryptDirectory
 ```
 
 Sweet, it's right above. No need to apply energy to go traverse the rabbit hole. Now, we see the previous dump where we are supposed to search `key`
-We are supposed to have the `key` right at the very top unless we are superlucky and key matches one of our invert grep logic we will fail. But chances are super duper less.
+We are supposed to have the `key` right at the very top unless we are superunlucky and key matches one of our invert grep logic, then we will fail. But chances are super duper less.
 
 Now, we have 2 candidates
 ```

@@ -87,3 +87,4 @@ for i in xrange(0, 50):
     r1 = sesx.get("http://45.76.90.207:12006/?guess="+str(nextNum))
     nextNum = ((a*nextNum)+c)%m
     print r1.text
+#X-MAS{LCG_0n_7h3_LapL4nd_m0n0LiTh_1s_n0t_7ha7_s3cur3}

@@ -1,0 +1,152 @@
+$  python pwndilemma.py 
+[+] Opening connection to 199.247.6.180 on port 14001: Done
+[+] Upper bound 131
+[+] Lower bound -13
+[+] Total operation until now: 145
+{0: -4.99847235798, 1: -2.62898660888, 2: 19.9765320945, 3: 37.9886660471, 4: 28.3882947647, 5: 18.7879234822, 6: 9.18755219978, 7: -0.412819082663, 8: -10.0131903651, 9: -10.6106976564, 10: -8.9943099387, 11: -7.37792222095, 12: -5.76153450321, 13: -4.14514678546, 14: -2.52875906772, 15: -0.912371349976, 16: 0.704016367769, 17: 2.32040408551, 18: 3.93679180326, 19: 5.553179521, 20: 7.16956723875, 21: 8.78595495649, 22: 10.4023426742, 23: 12.018730392, 24: 13.6351181097, 25: 15.2515058275, 26: 16.8678935452, 27: 18.484281263, 28: 13.2057622006, 29: 11.221843019, 30: 9.23792383735, 31: 7.25400465574, 32: 5.27008547412, 33: 3.2861662925, 34: 1.30224711088, 35: 0.133575734494, 36: -0.649968792975, 37: -1.43351332044, 38: -2.21705784791, 39: -3.00060237538, 40: -3.78414690285, 41: -4.56769143032, 42: -5.35123595779, 43: -6.13478048526, 44: -6.91832501272, 45: -6.07940701077, 46: -5.19777662544, 47: -4.31614624012, 48: -3.43451585479, 49: -2.55288546946, 50: -1.67125508414, 51: -0.789624698811, 52: 0.0920056865157, 53: 0.973636071842, 54: 1.85526645717, 55: 2.73689684249, 56: 3.61852722782, 57: 4.50015761315, 58: 5.38178799847, 59: 6.2634183838, 60: 7.14504876913, 61: 8.02667915445, 62: 8.90830953978, 63: 9.78993992511, 64: 10.6715703104, 65: 11.5532006958, 66: 12.4348310811, 67: 20.0296271079, 68: 34.5307864836, 69: 34.2387938396, 70: 33.9468011957, 71: 33.6548085517, 72: 33.3628159078, 73: 33.0708232638, 74: 32.7788306199, 75: 32.4868379759, 76: 32.1948453319, 77: 31.902852688, 78: 31.610860044, 79: 31.3188674001, 80: 31.0268747561, 81: 30.7348821122, 82: 30.4428894682, 83: 30.1508968243, 84: 29.8589041803, 85: 29.5669115364, 86: 29.2749188924, 87: 28.9829262485, 88: 28.6909336045, 89: 28.3989409606, 90: 28.1069483166, 91: 27.8149556727, 92: 14.7120321559, 93: 0.664238542508, 94: -1.32523997489, 95: -3.31471849229, 96: -5.3041970097, 97: -0.041020310563, 98: 12.5772709773, 99: 12.0292530113, 100: 11.4812350453, 101: 10.9332170793, 102: 10.3851991133, 103: 9.83718114735, 104: 9.28916318136, 105: 8.74114521537, 106: 8.19312724938, 107: 7.64510928339, 108: 7.0970913174, 109: 6.54907335141, 110: 6.00105538542, 111: 5.45303741943, 112: 5.22172129988, 113: 5.63563523489, 114: 6.04954916989, 115: 6.4634631049, 116: 6.8773770399, 117: 7.29129097491, 118: 7.70520490992, 119: 8.11911884492, 120: 8.53303277993, 121: 8.94694671493, 122: 9.36086064994, 123: 9.77477458495, 124: 10.18868852, 125: 10.602602455, 126: 11.01651639, 127: 11.430430325, 128: 11.84434426, 129: 12.258258195, 130: 12.67217213, 131: 13.086086065, -1: 4.31528201237, -13: 14.4396816377, -12: 15.3793632755, -11: 16.3190449132, -10: 17.2587265509, -9: 18.1984081887, -8: 19.1380898264, -7: 20.0777714642, -6: 21.0174531019, -5: 21.9571347396, -4: 22.8968163774, -3: 22.9427907531, -2: 13.6290363827}
+[+] Finding maximum outta those 
+[+] This 3 gave highest 37.9886660471
+[+] Followed by 68 with 34.5307864836
+[+] Followed by 69 with 34.2387938396
+[*] Switching to interactive mode
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 3.1
+f(3.1) = 37.0286289189
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.99
+f(2.99) = 38.08466976
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 3.01
+f(3.01) = 37.8926623343
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.9
+f(2.9) = 38.9487031754
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.8
+f(2.8) = 38.0609470572
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.85
+f(2.85) = 39.1912229924
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.86
+f(2.86) = 39.3327180267
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.87
+f(2.87) = 39.2367143138
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.869
+f(2.869) = 39.2463146851
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.861
+f(2.861) = 39.3231176554
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.860
+f(2.86) = 39.3327180267
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.865
+f(2.865) = 39.2847161703
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 1
+f(1.0) = -2.62898660888
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.8609
+f(2.8609) = 39.3240776925
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.8600
+f(2.86) = 39.3327180267
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 1
+Enter a float: $ 2.8601
+f(2.8601) = 39.3317579895
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 2
+Enter your guess: $ 39.33
+Nope, that's quite far away from the real answer.
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 2
+Enter your guess: $ 2.86
+Nope, that's quite far away from the real answer.
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 2
+Enter your guess: $ 39.34
+Nope, that's quite far away from the real answer.
+Choose your action:
+[1] Query the value of the function at some point
+[2] Guess the global maximum
+
+$ 2
+Enter your guess: $ 39.35
+Congratulations! Here's your flag!
+ X-MAS{Th4nk5_for_m4k1ng_a_ch1ld_h4ppy_th1s_Chr1stma5}

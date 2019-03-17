@@ -5,7 +5,7 @@ Category: Web
 First, I checked whether there is a possibility for `ImageTragick` vulnerability. Next, I tried using `img` to fetch external image hosted on my server. Which gave me a hit with user-agent `CairoSVG`.
 
 
-`CairoSVG 2.3.0` is the latest version and is only compatible in python. There were 2 (or 3 although not a framework) good candidates for framework - Flask and Djano. Third one being `SimpleHTTPServer` to serve files.
+`CairoSVG 2.3.0` is the latest version and is only compatible in python. There were 2 (or 3 although not a framework) good candidates for framework - Flask and Django. Third one being `SimpleHTTPServer` to serve files.
 
 First, we need to get either RCE or XXE. I thought to first target for XXE. 
 
@@ -53,4 +53,4 @@ Then suddenly, we crafted a payload
 
 After processing that to PNG, It gave us the flag. 
 
-#TO-DO : Put the Flag
+#### CTF{haha_no_imagemagick_sorry}

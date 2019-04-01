@@ -1,4 +1,4 @@
-mport random
+import random
 import gmpy2
 from Crypto.Cipher import AES
 import sys

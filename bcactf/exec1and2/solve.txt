@@ -1,0 +1,7 @@
+For part-1:
+Awfully designed RE. Just do strings, and decode brainfuck code
+
+bcactf{3x3cut4bl3s_r_fun_124jher089245}
+
+For part-2:
+A much better designed RE, Do dynamic debugging using lldb. Return rand 1. Do rot-10 on that string. 

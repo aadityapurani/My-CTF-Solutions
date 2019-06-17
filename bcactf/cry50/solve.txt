@@ -1,0 +1,14 @@
+Base64
+Base32
+
+key: SALT
+vignere keyed afterwards.
+
+ct/pt
+lhlm oad lamaew eyhmgs. lg i sxsro rgu ntee qhj a qesg? dbfcp rgu stne xtve tm lhtl xac, b’dl rh wadr gn jhm ayw zayw at zowr.
+mvscey{bu57_j0n_o4i7_kgbhmffhlqe} bfm, te htjnpw, feim lixx at hhf’t mx ko dbepwx…
+
+that was simple enough. so i heard you came for a flag? since you have made it this far, i’ll go easy on you and hand it over.
+bcactf{ju57_y0u_w4i7_znjhbmnhaxm} but, be warned, next time it won’t be so simple…
+
+Flag: bcactf{ju57_y0u_w4i7_znjhbmnhaxm}

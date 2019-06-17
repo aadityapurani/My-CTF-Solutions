@@ -1,0 +1,3 @@
+Tupper Algorithm, Wrote manual decryption. From words num to decimal and Used Tupper Self Referential Method.
+
+and then I basically plugged in k into: https://keelyhill.github.io/tuppers-formula/

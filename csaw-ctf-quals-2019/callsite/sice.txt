@@ -1,0 +1,7 @@
+Generates crypto with given key and salt aa using crypt function
+
+so crypt(argv[2], "aa") == "aaGr6xly5gT42" and argv[1] == "400ca0"
+
+$ ./callsite 400cbb whatever
+FLAG{dummy}
+Wrong!

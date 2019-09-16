@@ -1,0 +1,16 @@
+Abused LOAD DATA LOCAL INFILE.
+Worked on it late as there were lots of challenges, and less engagers -_-
+Idea was to see config first, one thing stands out local-infile=TRUE & also table creation perms and write provided
+Double weirdness. After a lot of test, in fact there were 10-20 iterations of payload I tried. Some failed on remote, some worked on mysql cli , some failed on php -a
+Unsure weather there is mysqli.allow_local_infile = On is enabled on server, but looks like it is!
+Wasn't sure but tried, blind, basic sleep worked. with exfil. Read up documentation then.
+Then blind time based extraction it is.
+
+use mysql;
+create temporary table megatmp.temps (id text);
+load data local infile '/flag' into table megatmp.temps (@rip) set id = sleep(length(@rip));
+
+flag{enterprise_mysql_servers_are_glorified_file_hosting_server}
+
+script on vps, rip me vps thrashed after ctf. Unfortunately, got flag after 3 mins of end. smh. Was halfway when ctf end :oof:
+prolly, after script while build a proper writeup on this.

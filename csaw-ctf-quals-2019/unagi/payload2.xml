@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE my PUBLIC "" "https://google.com">
+<users>
+   <user>
+      <username>alice</username>
+      <password>passwd1</password>
+      <name>Alice</name>
+      <email>&my;</email>
+      <group>CSAW2019</group>
+   </user>
+   <user>
+      <username>bob</username>
+      <password>passwd2</password>
+      <name>Bob</name>
+      <email>bob@fakesite.com</email>
+      <group>CSAW2019</group>
+   </user>
+</users>
